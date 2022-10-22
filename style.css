@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-elements{
+    display: flex;
+    align-items: center;
+    
+}
+
+.f-elements .loguito{
+    width: 150px;
+    
+}
+
+.f-elements .hamburguesita{
+    width: 40px;
+    
+}
+
+.f-elements .loguito img,.f-elements .hamburguesita img{
+    width:100%;
+    
+}
+
+.s-elements{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.s-elements input{
+    height: 35px;
+    width: 600px;
+}
+
+.s-elements .lupita{
+    width: 25px;
+}
+
+.lupita img{
+    width: 100%;
+}
+
+.s-elements .microfonito{
+    display: flex;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.microfonito img{
+    width: 90%;
+}
+
+.t-elements{
+    display: flex;
+    align-items: center;
+
+}
+
+.t-elements .punticos{
+    display: flex;
+    align-items: center;
+    width: 30px;
+}
+
+.t-elements img{
+    width: 100%;
+}
+
+.sign-in{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sign-in img{
+    width: 20px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.space-videos{
+    width: 49%;
+    flex-wrap: wrap;
+}
+
+.elementos{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    gap: 10px;
+}
+
+.elementos img{
+    background-color: black;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
